@@ -1,8 +1,11 @@
-# React + Vite
+# Superhero stats app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React+JS application is hostel on vercel:
+code-craft-wd-ass3-prajeet-h3jcz3e94-prajeets-projects-6556bcb8.vercel.app
 
-Currently, two official plugins are available:
+Enter a superhero name to obtain a picture of that superhero, along with the statistics.
+It uses the superhero API given below: (Access token is unique for a github account)
+https://www.superheroapi.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All the superhero character ids along with their names can be found below:
+https://www.superheroapi.com/ids.html
