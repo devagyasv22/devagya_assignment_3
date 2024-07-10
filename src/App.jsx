@@ -7,7 +7,7 @@ import './App.css';
 const App = () => {
   const [name, setName] = useState('');
   const [superhero, setSuperhero] = useState(null);
-  const token = '31cb7328d7ecfc86fcad2087e8d1dd18';
+  const token = '16fc575a2fd01ea1c134cb8f1a2765be';
 
   const handleClick = async (e) => {
     e.preventDefault();
