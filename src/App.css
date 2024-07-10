@@ -1,13 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; 
+  color: #000; 
+}
+
 .App {
   text-align: center;
   padding: 2em;
   background-color: #fff; 
   color: #000; 
+  height: 100%;
+  width: 100%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
+
 .container {
-  display: inline-block;;
   text-align: center;
 }
+
 .form {
   display: flex;
   justify-content: center;
@@ -15,6 +34,7 @@
   gap: 0.5em;
   margin-bottom: 2em;
 }
+
 input {
   padding: 0.5em;
   border: 1px solid #ccc;
@@ -22,6 +42,7 @@ input {
   background-color: #fff;
   color: #000;
 }
+
 button {
   padding: 0.5em 1em;
   border: none;
@@ -31,9 +52,11 @@ button {
   cursor: pointer;
   margin-top: 1em;
 }
+
 button:hover {
   background: #0056b3;
 }
+
 .random-button {
   padding: 0.5em 1em;
   border: none;
@@ -44,6 +67,7 @@ button:hover {
   margin-top: 0em;
   margin-bottom: 2em;
 }
+
 .random-button:hover {
   background: #218838;
 }
